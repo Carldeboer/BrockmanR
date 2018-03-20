@@ -1,0 +1,14 @@
+Package: BrockmanR
+Title: K-mer-based analysis of chromatin state.
+Version: 0.0.0.9000
+Authors@R: person("Carl", "de Boer", email = "carlgdeboer@gmail.com", role = c("aut", "cre"))
+Description: Functions to cluster, factorize, graph, analyze, and interpret k-mer representations of cells/samples of a chromatin readout (e.g. ATAC-seq, ChIP).
+Depends:
+	ggplot2,
+	tsne
+Suggests:
+	jackstraw
+License: GPL-v3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
