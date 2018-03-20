@@ -203,6 +203,8 @@ getKMerTFEnrichment = function(rotated, binaryKMerMatchesToTFs,n_max=3000, verbo
 #' testResultsHigh = minHG(as.logical(cisbp$binaryPBMZScores[order(pcs$rotation[row.names(cisbp$binaryPBMZScores),treatmentPCs$PC[1]],decreasing = T),"M0312_1.02.PBM"])); # highly-weighted k-mers
 
 minHG = function(x, n_max = length(x)-1){
+	x = na.rm(x);
+	n_max = min(n_max, length(x)-1)
   minP = 0;
   mink = 0;
   logOR = 0;
