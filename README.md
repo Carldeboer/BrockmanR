@@ -20,4 +20,4 @@ install_github("Carldeboer/BrockmanR")
 
 # Examples
 
-See [the main page for examples](https://carldeboer.github.io/brockman_examples.html)
+See [the main page for examples](https://carldeboer.github.io/brockman_example.html)
